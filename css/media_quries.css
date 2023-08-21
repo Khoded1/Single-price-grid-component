@@ -1,0 +1,29 @@
+@media screen and (max-width: 375px) {
+	body {
+		padding: 1rem;
+		background-color: hsl(204, 43%, 93%);
+	}
+	.single-price_grid-container {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin-top: 3rem;
+	}
+	.single-price_header {
+		font-size: 1.5rem;
+	}
+	.single-price_sub_heading {
+		font-size: 1rem;
+		font-weight: 700;
+	}
+	.single-price_paragraph {
+		line-height: 1.5;
+		font-size: 0.9rem;
+	}
+	.single-price_grid-2 {
+		border-bottom-left-radius: 0px;
+	}
+	.single-price_grid-3 {
+		border-bottom-left-radius: 10px;
+	}
+}
